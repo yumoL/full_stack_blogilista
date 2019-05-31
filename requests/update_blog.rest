@@ -1,0 +1,10 @@
+
+PUT http://localhost:3003/api/blogs/5ceb8e705a452943de4aded1
+Content-Type: application/json
+
+{
+    "title": "computer",
+    "author": "Jackson",
+    "url": "www.baidu.com",
+    "likes": 100
+}

@@ -1,0 +1,40 @@
+{
+  "name": "full_stack_blogilista",
+  "version": "0.0.1",
+  "description": "Exercises of part4 of Full-Stack-course",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=production node index.js",
+    "watch": "NODE_ENV=development nodemon index.js",
+    "test": "NODE_ENV=test jest --verbose --runInBand",
+    "lint": "eslint",
+    "build:ui": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yumoL/full_stack_blogilista.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yumoL/full_stack_blogilista/issues"
+  },
+  "homepage": "https://github.com/yumoL/full_stack_blogilista#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.5.11",
+    "mongoose-unique-validator": "^2.0.3",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "jest": "^24.8.0",
+    "nodemon": "^1.19.1",
+    "supertest": "^4.0.2"
+  }
+}
